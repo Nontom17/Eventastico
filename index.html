@@ -14,62 +14,186 @@
         <h1 class="logo">
 
             EVENT <span class="punto-rojo">•</span>ASTICO
-            
+
         </h1>
 
         <nav>
-            <a href="">Inicio</a>
+            <a href="">
+                <h2>Inicio</h2>
+            </a>
 
-            <a href="">¿Comó Funciona?</a>
+            <a href="">
+                <h2>¿Comó Funciona?</h2>
+            </a>
 
-            <a href="">Ayuda</a>
+            <a href="">
+                <h2>Ayuda</h2>
+            </a>
 
         </nav>
 
-        <div class="botones-header">
+    </header>
 
-            <button class="btn-registro">Registro</button>
+    <div class="botones-header">
 
-            <button class="btn-crear">Crear Evento</button>
+        <button class="btn-registro">Registro</button>
+
+        <button class="btn-crear">Crear Evento</button>
+
+    </div>
+
+    <section class="zona-mapa">
+
+        <img id="mapa" src="Imágenes/mapa-1.png" alt="mapa-1">
+
+    </section>
+
+    <section class="filtros">
+
+        <div class="pestanas">
+
+            <button>Eventos cercanos</button>
+
+            <button>Nuevos Eventos</button>
 
         </div>
 
-        <section class="zona-mapa">
+        <div class="buscador">
 
-            <img src="Imágenes/mapa-1.png" alt="mapa-1">
+            <input type="text" id="busqueda" placeholder="Buscar Eventos">
 
-        </section>
+            <button>Buscar</button>
 
-        <section class="filtros">
+        </div>
 
-            <div class="pestanas">
+        <div class="ordenar">
 
-                <button>Eventos cercanos</button>
+            <select>
 
-                <button>Nuevos Eventos</button>
+                <option>Ordenar por Relevancia</option>
+
+            </select>
+
+        </div>
+
+    </section>
+
+    <!--EVENTOS-->
+
+    <main class="contendor-de-eventos">
+
+        <!--EVENTO 1-->
+
+        <article class="tarjeta">
+
+            <div class="imagen-tarjeta">
+
+                <img src="Imágenes/evento-tecnologia.jpg" alt="evento-1">
 
             </div>
 
-            <div class="buscador">
+            <div class="info-tarjeta">
 
-                <input type="text" id="busqueda" placeholder="Buscar Eventos">
+                <div class="fecha-caja">
 
-                <button>Buscar</button>
+                    <span class="dia">10</span>
+
+                    <span class="mes">may</span>
+
+                </div>
+
+                <div class="detalles-evento">
+
+                    <h2>Congreso de Tecnología</h2>
+
+                    <p class="asistentes-evento">Asistentes:
+
+                    <img src="Imágenes/asistentes.png" alt="asistentes">
+
+                    <span id="asistentes">5</span>
+
+                    </p>
+
+                </div>
+
 
             </div>
 
-            <div class="ordenar">
+            <!--EVENTO 2-->
 
-                <select>
+            <article class="tarjeta">
 
-                    <option>Ordenar por Relevancia</option>
+            <div class="imagen-tarjeta">
 
-                </select>
+                <img src="Imágenes/evento-verano.jpg" alt="evento-2">
 
             </div>
 
-        </section>
-    </header>
+            <div class="info-tarjeta">
+
+                <div class="fecha-caja">
+
+                    <span class="dia">15</span>
+
+                    <span class="mes">jul</span>
+
+                </div>
+
+                <div class="detalles-evento">
+
+                    <h2>Fiesta de verano</h2>
+
+                    <p class="asistentes-evento">Asistentes:
+
+                    <img src="Imágenes/asistentes.png" alt="asistentes">
+
+                    <span id="asistentes2">4</span>
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!--EVENTO 3-->
+
+            <article class="tarjeta">
+
+            <div class="imagen-tarjeta">
+
+                <img src="Imágenes/evento-navidad.jpg" alt="evento-3">
+
+            </div>
+
+            <div class="info-tarjeta">
+
+                <div class="fecha-caja">
+
+                    <span class="dia">18</span>
+
+                    <span class="mes">dic</span>
+
+                </div>
+
+                <div class="detalles-evento">
+
+                    <h2>Posada Navideña</h2>
+
+                    <p class="asistentes-evento">Asistentes:
+
+                    <img src="Imágenes/asistentes.png" alt="asistentes">
+
+                    <span id="asistentes3">10</span>
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </main>
 
 
 </body>
